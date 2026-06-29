@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oscar & Den Player</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Oscar & Den Player</title>
+
+<style>
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:#1d1d1d;
+    border-radius:28px;
+    padding:25px;
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+}
+
+.cover{
+    width:100%;
+    aspect-ratio:1;
+    background:#333;
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:22px;
+}
+
+h1{
+    margin:18px 0 5px;
+    font-size:24px;
+}
+
+p{
+    color:#bbb;
+    margin:0;
+}
+
+.play{
+    margin-top:20px;
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+    background:white;
+    color:black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:32px;
+
+    cursor:pointer;
+}
+</style>
+
 </head>
 
 <body>
-  <h1>Oscar & Den</h1>
-  <p>Soundtrack is coming...</p>
+
+<div class="card">
+
+<div class="cover">
+🎵
+</div>
+
+<h1>Oscar & Den</h1>
+
+<p>Book Soundtrack</p>
+
+<div class="play">
+▶
+</div>
+
+</div>
+
 </body>
 </html>
